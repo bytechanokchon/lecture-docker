@@ -1,0 +1,5 @@
+1. ติดตั้ง python 3.14.0
+2. ติดตั้ง package
+3. อัพโหลดชุดคำสั่งเข้าไปที่ container
+4. port = 5000
+5. cmd > python app.py
