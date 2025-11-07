@@ -27,10 +27,11 @@
     ดูรายละเอียดของ image
 
 ### docker rmi (image-id)
-    ลบ image ตาม id ที่ระบุ
+    ลบ image ตาม id ที่ระบุ 
 
 ### docker rmi (image-name):(tag)
     ลบ image ตามชื่อและ tag
+    เช่น docker rmi python:3.9
 
 ### docker image prune
     ลบ image ที่ไม่ได้ใช้งานออก
