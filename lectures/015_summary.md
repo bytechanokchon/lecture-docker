@@ -15,7 +15,7 @@
 - ความปลอดภััยต่ำ
 
 ### Virtualized Deployment
-มีการคิดค้น Software Hypervisor ขึ้นมา ซึ่งทำให่สามารถสร้าง virtual machine ขึ้นมาไว้บน physical machine ได้ ทำให้่สามารถรันระบบได้หลวยตัวด้วยสภาพแวดล้อมที่แตกต่างกันได้ เช่น dotnet 8 กับ dotnet 2.1 สามารถทำงานบน physical machine เดียวกันได้ เพราะว่าแต่ละตัวรันอยู่ที่คนละ virtual machine
+มีการคิดค้น Software Hypervisor ขึ้นมา ซึ่งทำให้สามารถสร้าง virtual machine ขึ้นมาไว้บน physical machine ได้ ทำให้่สามารถรันระบบได้หลายตัวด้วยสภาพแวดล้อมที่แตกต่างกันได้ เช่น dotnet 8 กับ dotnet 2.1 สามารถทำงานบน physical machine เดียวกันได้ เพราะว่าแต่ละตัวรันอยู่ที่คนละ virtual machine
 
 ![สถาปัตยกรรมแบบ virtualized deployment](../sources/images/003/1.png)
 
@@ -69,7 +69,7 @@
 3. **COPY** คัดลอกไฟล์จากเครื่องของเรา (local) ไปยัง container
 4. **RUN** รันคำสั่ง comman ต่าง ๆ ระหว่างการ build
 5. **EXPOSE** ระบุ port ที่ container นี้จะใช้ในการสื่อสารกับคนภายนอก
-6. **CMD** รัยคำสั่ง comman ต่าง ๆ ตอน container กำลังทำงาน
+6. **CMD** รันคำสั่ง comman ต่าง ๆ ตอน container กำลังทำงาน
 
 **ตัวอย่างคำสั่ง**
     
