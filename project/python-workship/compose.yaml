@@ -1,0 +1,9 @@
+name: shopping-system
+  
+services:
+  web:
+    build: .
+    image: shoppinh-web-api
+    container_name: shoppinh-web-api-main
+    ports:
+      - "5000:5000"
